@@ -1,0 +1,26 @@
+# macOS metadata
+.DS_Store
+
+# Editor settings
+.vscode/
+.idea/
+*.code-workspace
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.egg-info/
+.Python
+env/
+venv/
+ENV/
+.build/
+build/
+dist/
+
+# Jupyter
+.ipynb_checkpoints
+
+# Matlab data (comment out if you need to track raw data)
+*.mat
+Project4_Data/
