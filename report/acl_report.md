@@ -16,7 +16,7 @@ We adopt backward mTRF models (direction = −1) implemented via mTRFpy with mul
 
 Subject-specific hyperparameters are selected through 5-fold cross-validation that balances reconstruction fidelity and decoding accuracy. For every λ we train on four folds, evaluate on the held-out fold, and aggregate: (i) Pearson correlation between reconstructed and true envelopes, and (ii) binary accuracy obtained by comparing correlations against both attended and unattended envelopes. Final λ maximizes decoding accuracy, using average reconstruction score and smaller λ as tie-breakers. The model is then re-estimated on the full normalized training set with the chosen λ.
 
-Figure 1 summarises the cross-validated performance surfaces across the λ grid, highlighting how reconstruction fidelity and decoding accuracy evolve for each subject.
+Cross-validated curves (Figure 1) reveal broad performance plateaus, indicating that moderate ridge penalties robustly balance stimulus reconstruction and decoding accuracy across listeners.
 
 ![Figure 1: Cross-validated reconstruction (top) and decoding accuracy (bottom) as a function of regularization λ for all subjects; logarithmic x-axis spans 10⁻³ to 10³.](../results/lambda_cv_curves.png)
 
@@ -48,25 +48,25 @@ Visualization deliverables encompass hyperparameter sweeps (Figure 1), subject p
 | S11 | 1 | 0.193±0.075 | 0.042±0.087 | 0.976 | 0.556 |
 | S12 | 3.16 | 0.193±0.085 | 0.117±0.079 | 0.905 | 0.778 |
 
-Figure 2 visualises the distribution of test correlations and accuracies, underscoring subject-specific variability beyond summary averages.
+Subject-level distributions (Figure 2) highlight the spread of trial-wise correlations and the concentration of decoding accuracy for each listener.
 
 ![Figure 2: Boxplots of test-trial correlations (top) and bar plot of attention-decoding accuracy (bottom) across subjects.](../results/subject_performance_boxplots.png)
 
 *Figure 2: Performance heterogeneity is evident—while several listeners approach ceiling accuracy, others cluster near chance despite similar correlation medians.*
 
-Across subjects we observe mean test correlation r = 0.125 ± 0.057 and mean test accuracy 0.75 ± 0.14. Participants S4, S7, and S8 exceed 0.90 accuracy, while S6 and S11 remain near chance, consistent with individual variability reported in prior AAD literature. Figure 3 illustrates envelope reconstruction for a representative S1 trial, revealing tight alignment between prediction and ground truth.
+Across subjects we observe mean test correlation r = 0.125 ± 0.057 and mean test accuracy 0.75 ± 0.14. Participants S4, S7, and S8 exceed 0.90 accuracy, while S6 and S11 remain near chance, consistent with individual variability reported in prior AAD literature. As shown in Figure 3, the decoder closely matches the attended envelope for a representative S1 trial.
 
 ![Figure 3: Attended envelope reconstruction for subject S1 showing predicted (orange) versus ground-truth (blue) z-scored speech envelopes over time.](../results/reconstruction_example.png)
 
 *Figure 3: The backward decoder recovers the attended envelope dynamics, with residual fluctuations primarily reflecting high-frequency noise and amplitude compression.*
 
-To probe residual structure, Figure 4 plots the power spectral density of the reconstruction error for the same S1 trial. Power concentrates below 5 Hz, indicating that most discrepancies arise from fine-scale temporal modulations.
+We probe residual structure via the power spectral density of the reconstruction error for the same S1 trial (Figure 4). Power concentrates below 5 Hz, indicating that most discrepancies arise from fine-scale temporal modulations.
 
 ![Figure 4: Power spectral density of reconstruction error for S1 test trial 1 computed via Welch’s method at 64 Hz.](../results/reconstruction_error_spectrum.png)
 
 *Figure 4: Residual energy peaks at low modulation frequencies, suggesting that additional filtering or nonlinear decoding could further polish envelope tracking.*
 
-Figure 5 summarises the distribution of decoding margins (r_att − r_unatt) over all test trials, offering a view of decision confidence beyond binary accuracy.
+The distribution of decoding margins (r_att − r_unatt) over all test trials provides a view of decision confidence beyond binary accuracy (Figure 5).
 
 ![Figure 5: Histogram of correlation margins between attended and unattended reconstructions across all test trials.](../results/decoding_margin_hist.png)
 
@@ -81,13 +81,13 @@ Figure 5 summarises the distribution of decoding margins (r_att − r_unatt) ove
 | 15 | 0.676 | 0.087 |
 | 30 | 0.750 | 0.133 |
 
-Short 1 s windows offer modest improvements over chance (0.58), while 30 s windows deliver the highest mean accuracy (0.75) but exhibit increased inter-subject variance, as summarised in Figure 6.
+Short 1 s windows offer modest improvements over chance (0.58), while 30 s windows deliver the highest mean accuracy (0.75) but exhibit increased inter-subject variance (Figure 6).
 
 ![Figure 6: Attention decoding accuracy as a function of decision window length; error bars denote across-subject standard deviation.](../results/aad_window_accuracy.png)
 
 *Figure 6: Longer integration windows enhance decoding reliability by stabilizing correlation estimates, albeit with increased variance and latency compared to rapid 1 s decisions.*
 
-Figure 7 traces subject-specific trajectories, revealing that some listeners benefit dramatically from longer windows whereas others plateau after intermediate durations.
+Subject-specific trajectories reveal that some listeners benefit dramatically from longer windows whereas others plateau after intermediate durations (Figure 7).
 
 ![Figure 7: Subject-wise decoding accuracy curves across window lengths from 1 to 30 seconds.](../results/window_accuracy_subjects.png)
 
