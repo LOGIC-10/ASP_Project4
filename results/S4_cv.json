@@ -1,0 +1,80 @@
+[
+  {
+    "subject": "S4",
+    "lambda": 0.001,
+    "reconstruction_score": 0.15337726612895003,
+    "decoding_accuracy": 0.9047619047619048
+  },
+  {
+    "subject": "S4",
+    "lambda": 0.0031622776601683794,
+    "reconstruction_score": 0.1534601539313955,
+    "decoding_accuracy": 0.9047619047619048
+  },
+  {
+    "subject": "S4",
+    "lambda": 0.01,
+    "reconstruction_score": 0.15367768401010043,
+    "decoding_accuracy": 0.9047619047619048
+  },
+  {
+    "subject": "S4",
+    "lambda": 0.03162277660168379,
+    "reconstruction_score": 0.15417622561247457,
+    "decoding_accuracy": 0.9047619047619048
+  },
+  {
+    "subject": "S4",
+    "lambda": 0.1,
+    "reconstruction_score": 0.15510384386526882,
+    "decoding_accuracy": 0.8809523809523809
+  },
+  {
+    "subject": "S4",
+    "lambda": 0.31622776601683794,
+    "reconstruction_score": 0.1562676759136388,
+    "decoding_accuracy": 0.8571428571428571
+  },
+  {
+    "subject": "S4",
+    "lambda": 1.0,
+    "reconstruction_score": 0.15643430046727042,
+    "decoding_accuracy": 0.8571428571428571
+  },
+  {
+    "subject": "S4",
+    "lambda": 3.1622776601683795,
+    "reconstruction_score": 0.1528814600466587,
+    "decoding_accuracy": 0.8095238095238095
+  },
+  {
+    "subject": "S4",
+    "lambda": 10.0,
+    "reconstruction_score": 0.1437324208953249,
+    "decoding_accuracy": 0.7857142857142857
+  },
+  {
+    "subject": "S4",
+    "lambda": 31.622776601683793,
+    "reconstruction_score": 0.1315331866241201,
+    "decoding_accuracy": 0.7380952380952381
+  },
+  {
+    "subject": "S4",
+    "lambda": 100.0,
+    "reconstruction_score": 0.12103016871666071,
+    "decoding_accuracy": 0.6904761904761905
+  },
+  {
+    "subject": "S4",
+    "lambda": 316.22776601683796,
+    "reconstruction_score": 0.11499965822917585,
+    "decoding_accuracy": 0.6666666666666666
+  },
+  {
+    "subject": "S4",
+    "lambda": 1000.0,
+    "reconstruction_score": 0.11108298329970483,
+    "decoding_accuracy": 0.6666666666666666
+  }
+]

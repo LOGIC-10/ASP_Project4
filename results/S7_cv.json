@@ -1,0 +1,80 @@
+[
+  {
+    "subject": "S7",
+    "lambda": 0.001,
+    "reconstruction_score": 0.20404126589036925,
+    "decoding_accuracy": 0.9523809523809523
+  },
+  {
+    "subject": "S7",
+    "lambda": 0.0031622776601683794,
+    "reconstruction_score": 0.20406579115413462,
+    "decoding_accuracy": 0.9523809523809523
+  },
+  {
+    "subject": "S7",
+    "lambda": 0.01,
+    "reconstruction_score": 0.20413508292337537,
+    "decoding_accuracy": 0.9523809523809523
+  },
+  {
+    "subject": "S7",
+    "lambda": 0.03162277660168379,
+    "reconstruction_score": 0.20430749710855314,
+    "decoding_accuracy": 0.9523809523809523
+  },
+  {
+    "subject": "S7",
+    "lambda": 0.1,
+    "reconstruction_score": 0.20465467555847466,
+    "decoding_accuracy": 0.9285714285714286
+  },
+  {
+    "subject": "S7",
+    "lambda": 0.31622776601683794,
+    "reconstruction_score": 0.20517004248676207,
+    "decoding_accuracy": 0.9285714285714286
+  },
+  {
+    "subject": "S7",
+    "lambda": 1.0,
+    "reconstruction_score": 0.20565707337178568,
+    "decoding_accuracy": 0.9285714285714286
+  },
+  {
+    "subject": "S7",
+    "lambda": 3.1622776601683795,
+    "reconstruction_score": 0.20535202115276358,
+    "decoding_accuracy": 0.9523809523809523
+  },
+  {
+    "subject": "S7",
+    "lambda": 10.0,
+    "reconstruction_score": 0.202539202209742,
+    "decoding_accuracy": 0.9523809523809523
+  },
+  {
+    "subject": "S7",
+    "lambda": 31.622776601683793,
+    "reconstruction_score": 0.19632179360777696,
+    "decoding_accuracy": 0.9523809523809523
+  },
+  {
+    "subject": "S7",
+    "lambda": 100.0,
+    "reconstruction_score": 0.18881559095335168,
+    "decoding_accuracy": 0.9523809523809523
+  },
+  {
+    "subject": "S7",
+    "lambda": 316.22776601683796,
+    "reconstruction_score": 0.18112725647883948,
+    "decoding_accuracy": 0.9285714285714286
+  },
+  {
+    "subject": "S7",
+    "lambda": 1000.0,
+    "reconstruction_score": 0.17098694180576476,
+    "decoding_accuracy": 0.8809523809523809
+  }
+]

@@ -1,0 +1,80 @@
+[
+  {
+    "subject": "S5",
+    "lambda": 0.001,
+    "reconstruction_score": 0.10145613188405316,
+    "decoding_accuracy": 0.8571428571428571
+  },
+  {
+    "subject": "S5",
+    "lambda": 0.0031622776601683794,
+    "reconstruction_score": 0.1014819769573154,
+    "decoding_accuracy": 0.8571428571428571
+  },
+  {
+    "subject": "S5",
+    "lambda": 0.01,
+    "reconstruction_score": 0.10155369970478663,
+    "decoding_accuracy": 0.8571428571428571
+  },
+  {
+    "subject": "S5",
+    "lambda": 0.03162277660168379,
+    "reconstruction_score": 0.10169092046237309,
+    "decoding_accuracy": 0.8571428571428571
+  },
+  {
+    "subject": "S5",
+    "lambda": 0.1,
+    "reconstruction_score": 0.10188646262615358,
+    "decoding_accuracy": 0.8571428571428571
+  },
+  {
+    "subject": "S5",
+    "lambda": 0.31622776601683794,
+    "reconstruction_score": 0.10204488062303925,
+    "decoding_accuracy": 0.8809523809523809
+  },
+  {
+    "subject": "S5",
+    "lambda": 1.0,
+    "reconstruction_score": 0.10167764251773945,
+    "decoding_accuracy": 0.8571428571428571
+  },
+  {
+    "subject": "S5",
+    "lambda": 3.1622776601683795,
+    "reconstruction_score": 0.09997922788540545,
+    "decoding_accuracy": 0.8571428571428571
+  },
+  {
+    "subject": "S5",
+    "lambda": 10.0,
+    "reconstruction_score": 0.09613820499149942,
+    "decoding_accuracy": 0.8571428571428571
+  },
+  {
+    "subject": "S5",
+    "lambda": 31.622776601683793,
+    "reconstruction_score": 0.0887818416349977,
+    "decoding_accuracy": 0.8333333333333334
+  },
+  {
+    "subject": "S5",
+    "lambda": 100.0,
+    "reconstruction_score": 0.07829602333956734,
+    "decoding_accuracy": 0.6904761904761905
+  },
+  {
+    "subject": "S5",
+    "lambda": 316.22776601683796,
+    "reconstruction_score": 0.0688850772543362,
+    "decoding_accuracy": 0.6428571428571429
+  },
+  {
+    "subject": "S5",
+    "lambda": 1000.0,
+    "reconstruction_score": 0.06309913493732168,
+    "decoding_accuracy": 0.5952380952380952
+  }
+]

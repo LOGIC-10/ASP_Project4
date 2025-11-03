@@ -1,0 +1,80 @@
+[
+  {
+    "subject": "S12",
+    "lambda": 0.001,
+    "reconstruction_score": 0.0723689148118848,
+    "decoding_accuracy": 0.6666666666666666
+  },
+  {
+    "subject": "S12",
+    "lambda": 0.0031622776601683794,
+    "reconstruction_score": 0.07246602217205769,
+    "decoding_accuracy": 0.6666666666666666
+  },
+  {
+    "subject": "S12",
+    "lambda": 0.01,
+    "reconstruction_score": 0.07271157598835136,
+    "decoding_accuracy": 0.6666666666666666
+  },
+  {
+    "subject": "S12",
+    "lambda": 0.03162277660168379,
+    "reconstruction_score": 0.07322599890940495,
+    "decoding_accuracy": 0.6666666666666666
+  },
+  {
+    "subject": "S12",
+    "lambda": 0.1,
+    "reconstruction_score": 0.07403151740144402,
+    "decoding_accuracy": 0.6666666666666666
+  },
+  {
+    "subject": "S12",
+    "lambda": 0.31622776601683794,
+    "reconstruction_score": 0.07478666003483962,
+    "decoding_accuracy": 0.6666666666666666
+  },
+  {
+    "subject": "S12",
+    "lambda": 1.0,
+    "reconstruction_score": 0.07465501350088548,
+    "decoding_accuracy": 0.6428571428571429
+  },
+  {
+    "subject": "S12",
+    "lambda": 3.1622776601683795,
+    "reconstruction_score": 0.07255797118005348,
+    "decoding_accuracy": 0.7142857142857143
+  },
+  {
+    "subject": "S12",
+    "lambda": 10.0,
+    "reconstruction_score": 0.06733291303228085,
+    "decoding_accuracy": 0.6904761904761905
+  },
+  {
+    "subject": "S12",
+    "lambda": 31.622776601683793,
+    "reconstruction_score": 0.058399507167712986,
+    "decoding_accuracy": 0.6428571428571429
+  },
+  {
+    "subject": "S12",
+    "lambda": 100.0,
+    "reconstruction_score": 0.04796573774876748,
+    "decoding_accuracy": 0.5952380952380952
+  },
+  {
+    "subject": "S12",
+    "lambda": 316.22776601683796,
+    "reconstruction_score": 0.03891193795066867,
+    "decoding_accuracy": 0.6904761904761905
+  },
+  {
+    "subject": "S12",
+    "lambda": 1000.0,
+    "reconstruction_score": 0.032288640389581375,
+    "decoding_accuracy": 0.5952380952380952
+  }
+]

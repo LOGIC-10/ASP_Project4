@@ -1,0 +1,80 @@
+[
+  {
+    "subject": "S10",
+    "lambda": 0.001,
+    "reconstruction_score": 0.10579349909673881,
+    "decoding_accuracy": 0.7619047619047619
+  },
+  {
+    "subject": "S10",
+    "lambda": 0.0031622776601683794,
+    "reconstruction_score": 0.1058246092645256,
+    "decoding_accuracy": 0.7619047619047619
+  },
+  {
+    "subject": "S10",
+    "lambda": 0.01,
+    "reconstruction_score": 0.10590785501402536,
+    "decoding_accuracy": 0.7619047619047619
+  },
+  {
+    "subject": "S10",
+    "lambda": 0.03162277660168379,
+    "reconstruction_score": 0.10610327384476285,
+    "decoding_accuracy": 0.7619047619047619
+  },
+  {
+    "subject": "S10",
+    "lambda": 0.1,
+    "reconstruction_score": 0.1065079865598311,
+    "decoding_accuracy": 0.7619047619047619
+  },
+  {
+    "subject": "S10",
+    "lambda": 0.31622776601683794,
+    "reconstruction_score": 0.10724320003655549,
+    "decoding_accuracy": 0.7619047619047619
+  },
+  {
+    "subject": "S10",
+    "lambda": 1.0,
+    "reconstruction_score": 0.10822162460372128,
+    "decoding_accuracy": 0.7619047619047619
+  },
+  {
+    "subject": "S10",
+    "lambda": 3.1622776601683795,
+    "reconstruction_score": 0.10866966125411788,
+    "decoding_accuracy": 0.7619047619047619
+  },
+  {
+    "subject": "S10",
+    "lambda": 10.0,
+    "reconstruction_score": 0.1072858445654331,
+    "decoding_accuracy": 0.7380952380952381
+  },
+  {
+    "subject": "S10",
+    "lambda": 31.622776601683793,
+    "reconstruction_score": 0.10297566849855706,
+    "decoding_accuracy": 0.7380952380952381
+  },
+  {
+    "subject": "S10",
+    "lambda": 100.0,
+    "reconstruction_score": 0.09564918804531908,
+    "decoding_accuracy": 0.7142857142857143
+  },
+  {
+    "subject": "S10",
+    "lambda": 316.22776601683796,
+    "reconstruction_score": 0.08894344008650018,
+    "decoding_accuracy": 0.7142857142857143
+  },
+  {
+    "subject": "S10",
+    "lambda": 1000.0,
+    "reconstruction_score": 0.08491944774665595,
+    "decoding_accuracy": 0.7380952380952381
+  }
+]

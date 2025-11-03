@@ -1,0 +1,80 @@
+[
+  {
+    "subject": "S9",
+    "lambda": 0.001,
+    "reconstruction_score": 0.09549998296186464,
+    "decoding_accuracy": 0.7857142857142857
+  },
+  {
+    "subject": "S9",
+    "lambda": 0.0031622776601683794,
+    "reconstruction_score": 0.09551533758413631,
+    "decoding_accuracy": 0.7857142857142857
+  },
+  {
+    "subject": "S9",
+    "lambda": 0.01,
+    "reconstruction_score": 0.09555850081085136,
+    "decoding_accuracy": 0.7857142857142857
+  },
+  {
+    "subject": "S9",
+    "lambda": 0.03162277660168379,
+    "reconstruction_score": 0.0956620598865681,
+    "decoding_accuracy": 0.7857142857142857
+  },
+  {
+    "subject": "S9",
+    "lambda": 0.1,
+    "reconstruction_score": 0.09585013990390709,
+    "decoding_accuracy": 0.7857142857142857
+  },
+  {
+    "subject": "S9",
+    "lambda": 0.31622776601683794,
+    "reconstruction_score": 0.0960960893541148,
+    "decoding_accuracy": 0.7619047619047619
+  },
+  {
+    "subject": "S9",
+    "lambda": 1.0,
+    "reconstruction_score": 0.09633303911202627,
+    "decoding_accuracy": 0.7380952380952381
+  },
+  {
+    "subject": "S9",
+    "lambda": 3.1622776601683795,
+    "reconstruction_score": 0.0961319329397673,
+    "decoding_accuracy": 0.7142857142857143
+  },
+  {
+    "subject": "S9",
+    "lambda": 10.0,
+    "reconstruction_score": 0.09459196966531076,
+    "decoding_accuracy": 0.6904761904761905
+  },
+  {
+    "subject": "S9",
+    "lambda": 31.622776601683793,
+    "reconstruction_score": 0.090601460960059,
+    "decoding_accuracy": 0.6428571428571429
+  },
+  {
+    "subject": "S9",
+    "lambda": 100.0,
+    "reconstruction_score": 0.08277095417696508,
+    "decoding_accuracy": 0.6904761904761905
+  },
+  {
+    "subject": "S9",
+    "lambda": 316.22776601683796,
+    "reconstruction_score": 0.07236095679824903,
+    "decoding_accuracy": 0.6428571428571429
+  },
+  {
+    "subject": "S9",
+    "lambda": 1000.0,
+    "reconstruction_score": 0.06311714068020095,
+    "decoding_accuracy": 0.6666666666666666
+  }
+]

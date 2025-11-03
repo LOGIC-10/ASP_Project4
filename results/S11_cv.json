@@ -1,0 +1,80 @@
+[
+  {
+    "subject": "S11",
+    "lambda": 0.001,
+    "reconstruction_score": 0.1012380754417273,
+    "decoding_accuracy": 0.6904761904761905
+  },
+  {
+    "subject": "S11",
+    "lambda": 0.0031622776601683794,
+    "reconstruction_score": 0.10219739645702507,
+    "decoding_accuracy": 0.6904761904761905
+  },
+  {
+    "subject": "S11",
+    "lambda": 0.01,
+    "reconstruction_score": 0.10330588732559998,
+    "decoding_accuracy": 0.6904761904761905
+  },
+  {
+    "subject": "S11",
+    "lambda": 0.03162277660168379,
+    "reconstruction_score": 0.1040655724778223,
+    "decoding_accuracy": 0.6904761904761905
+  },
+  {
+    "subject": "S11",
+    "lambda": 0.1,
+    "reconstruction_score": 0.10398329270694391,
+    "decoding_accuracy": 0.6904761904761905
+  },
+  {
+    "subject": "S11",
+    "lambda": 0.31622776601683794,
+    "reconstruction_score": 0.10133158792003186,
+    "decoding_accuracy": 0.6904761904761905
+  },
+  {
+    "subject": "S11",
+    "lambda": 1.0,
+    "reconstruction_score": 0.09233732303678953,
+    "decoding_accuracy": 0.7380952380952381
+  },
+  {
+    "subject": "S11",
+    "lambda": 3.1622776601683795,
+    "reconstruction_score": 0.07751208311740838,
+    "decoding_accuracy": 0.7142857142857143
+  },
+  {
+    "subject": "S11",
+    "lambda": 10.0,
+    "reconstruction_score": 0.0642329183317404,
+    "decoding_accuracy": 0.7142857142857143
+  },
+  {
+    "subject": "S11",
+    "lambda": 31.622776601683793,
+    "reconstruction_score": 0.056476099566757754,
+    "decoding_accuracy": 0.7380952380952381
+  },
+  {
+    "subject": "S11",
+    "lambda": 100.0,
+    "reconstruction_score": 0.049236506996851996,
+    "decoding_accuracy": 0.6428571428571429
+  },
+  {
+    "subject": "S11",
+    "lambda": 316.22776601683796,
+    "reconstruction_score": 0.04002828184643471,
+    "decoding_accuracy": 0.6428571428571429
+  },
+  {
+    "subject": "S11",
+    "lambda": 1000.0,
+    "reconstruction_score": 0.03128524062277964,
+    "decoding_accuracy": 0.5476190476190477
+  }
+]

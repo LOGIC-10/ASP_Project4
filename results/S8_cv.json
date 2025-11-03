@@ -1,0 +1,80 @@
+[
+  {
+    "subject": "S8",
+    "lambda": 0.001,
+    "reconstruction_score": 0.20843373659667983,
+    "decoding_accuracy": 0.9285714285714286
+  },
+  {
+    "subject": "S8",
+    "lambda": 0.0031622776601683794,
+    "reconstruction_score": 0.20847105332424423,
+    "decoding_accuracy": 0.9285714285714286
+  },
+  {
+    "subject": "S8",
+    "lambda": 0.01,
+    "reconstruction_score": 0.20861490330507343,
+    "decoding_accuracy": 0.9285714285714286
+  },
+  {
+    "subject": "S8",
+    "lambda": 0.03162277660168379,
+    "reconstruction_score": 0.20900712796194115,
+    "decoding_accuracy": 0.9285714285714286
+  },
+  {
+    "subject": "S8",
+    "lambda": 0.1,
+    "reconstruction_score": 0.20972676293815606,
+    "decoding_accuracy": 0.9285714285714286
+  },
+  {
+    "subject": "S8",
+    "lambda": 0.31622776601683794,
+    "reconstruction_score": 0.21059931002813115,
+    "decoding_accuracy": 0.9285714285714286
+  },
+  {
+    "subject": "S8",
+    "lambda": 1.0,
+    "reconstruction_score": 0.21081141778537832,
+    "decoding_accuracy": 0.9523809523809523
+  },
+  {
+    "subject": "S8",
+    "lambda": 3.1622776601683795,
+    "reconstruction_score": 0.20917671824603343,
+    "decoding_accuracy": 0.9523809523809523
+  },
+  {
+    "subject": "S8",
+    "lambda": 10.0,
+    "reconstruction_score": 0.20505704300675853,
+    "decoding_accuracy": 0.9523809523809523
+  },
+  {
+    "subject": "S8",
+    "lambda": 31.622776601683793,
+    "reconstruction_score": 0.1983444222421245,
+    "decoding_accuracy": 0.9523809523809523
+  },
+  {
+    "subject": "S8",
+    "lambda": 100.0,
+    "reconstruction_score": 0.1874659366505375,
+    "decoding_accuracy": 0.9523809523809523
+  },
+  {
+    "subject": "S8",
+    "lambda": 316.22776601683796,
+    "reconstruction_score": 0.16833092660690135,
+    "decoding_accuracy": 0.9523809523809523
+  },
+  {
+    "subject": "S8",
+    "lambda": 1000.0,
+    "reconstruction_score": 0.14238780169778772,
+    "decoding_accuracy": 0.8571428571428571
+  }
+]

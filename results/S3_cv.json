@@ -1,0 +1,80 @@
+[
+  {
+    "subject": "S3",
+    "lambda": 0.001,
+    "reconstruction_score": 0.17642558603395453,
+    "decoding_accuracy": 0.9047619047619048
+  },
+  {
+    "subject": "S3",
+    "lambda": 0.0031622776601683794,
+    "reconstruction_score": 0.17646755262869915,
+    "decoding_accuracy": 0.9047619047619048
+  },
+  {
+    "subject": "S3",
+    "lambda": 0.01,
+    "reconstruction_score": 0.1765883746162596,
+    "decoding_accuracy": 0.9047619047619048
+  },
+  {
+    "subject": "S3",
+    "lambda": 0.03162277660168379,
+    "reconstruction_score": 0.17689648395463284,
+    "decoding_accuracy": 0.9047619047619048
+  },
+  {
+    "subject": "S3",
+    "lambda": 0.1,
+    "reconstruction_score": 0.17754802919061793,
+    "decoding_accuracy": 0.8809523809523809
+  },
+  {
+    "subject": "S3",
+    "lambda": 0.31622776601683794,
+    "reconstruction_score": 0.17861980054296991,
+    "decoding_accuracy": 0.8809523809523809
+  },
+  {
+    "subject": "S3",
+    "lambda": 1.0,
+    "reconstruction_score": 0.17985152320854708,
+    "decoding_accuracy": 0.8809523809523809
+  },
+  {
+    "subject": "S3",
+    "lambda": 3.1622776601683795,
+    "reconstruction_score": 0.18060395292700346,
+    "decoding_accuracy": 0.9047619047619048
+  },
+  {
+    "subject": "S3",
+    "lambda": 10.0,
+    "reconstruction_score": 0.18035509261397709,
+    "decoding_accuracy": 0.9047619047619048
+  },
+  {
+    "subject": "S3",
+    "lambda": 31.622776601683793,
+    "reconstruction_score": 0.17936816668267336,
+    "decoding_accuracy": 0.9047619047619048
+  },
+  {
+    "subject": "S3",
+    "lambda": 100.0,
+    "reconstruction_score": 0.17701384061167794,
+    "decoding_accuracy": 0.8571428571428571
+  },
+  {
+    "subject": "S3",
+    "lambda": 316.22776601683796,
+    "reconstruction_score": 0.16817446837737376,
+    "decoding_accuracy": 0.8571428571428571
+  },
+  {
+    "subject": "S3",
+    "lambda": 1000.0,
+    "reconstruction_score": 0.14842972300693622,
+    "decoding_accuracy": 0.8333333333333334
+  }
+]
